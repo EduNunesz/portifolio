@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap');
+
+/*Globais*/
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(17, 17, 17);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    filter: drop-shadow(12px 12px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*main (todas as paginas)*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    color: white;
+}
+
+main p {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+main h1 {
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+
+/*header*/
+header {
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+}
+
+header p {
+    font-size: small;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+/*nav*/
+nav {
+    background-color: rgba(0, 0, 0, 0.76);
+    border-bottom: solid white 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+nav a {
+    font-family: 'Abel', sans-serif;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    color: rgb(100, 100, 100);
+}
+
+.ultimolink {
+    margin-right: 0px;
+}
+
+/*--(Home)--*/
+
+/*Carrosel*/
+#carouselExampleControls {
+    width: 90%;
+}
+
+/*Aside*/
+aside a {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+aside p {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: x-large;
+}
+
+/*cards*/
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img {
+    margin-top: 20px;
+    width: 100%;
+    transition-property: all;
+    transition-duration: 0.9s;
+}
+
+.cards img:hover {
+    transform: translateY(-10px);
+    border: solid 1px white;
+}
+
+.cards a {
+    color: white;
+}
+
+.cards h1 {
+    color: white;
+    font-size: x-large;
+    padding: 2px;
+    text-align: left;
+
+}
+
+.card1 {
+    width: 65%;
+    margin-top: 0px;
+}
+
+.card2 {
+    width: 65%;
+}
+
+.card3 {
+    width: 65%;
+    margin-bottom: 80px;
+}
+
+/*footer*/
+footer {
+    color: white;
+    background-color: black;
+    bottom: 0;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+footer p {
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+/*--(Generos)--*/
+
+/*ação*/
+.acao {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acao h1 {
+    margin-bottom: 20px;
+}
+
+.acao a {
+    color: white;
+}
+
+.acaoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.acaoCard img {
+    width: 100%;
+    transition-duration: 0.9s;
+}
+
+.acao p {
+    margin-top: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.acaoCard img:hover {
+    transform: scale(0.95);
+    border: solid 1px white;
+}
+
+.discoGeneros {
+    margin-bottom: 10px;
+}
+
+.pathGeneros {
+    margin-bottom: 10px;
+}
+
+
+/*drama*/
+.drama {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dramaCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.dramaCard img {
+    width: 100%;
+    transition-duration: 0.9s;
+}
+
+.drama p {
+    margin-top: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.dramaCard img:hover {
+    transform: scale(0.95);
+    border: solid 1px white;
+}
+
+.awayGeneros {
+    margin-bottom: 0px;
+}
+
+.insideGeneros {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.drama a {
+    color: white;
+}
+
+.drama h1 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+/*rpg*/
+.rpg a {
+    color: white;
+}
+
+.rpg h1 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.rpg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.rpgCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.rpgCard img {
+    width: 100%;
+    transition-duration: 0.9s;
+}
+
+.underGeneros {
+    margin-bottom: 10px;
+}
+
+.terrariaGeneros {
+    margin-bottom: 10px;
+}
+
+.rpg p {
+    margin-top: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.rpgCard img:hover {
+    transform: scale(0.95);
+    border: solid 1px white;
+}
+
+.ultimorpg {
+    margin-right: 0px;
+}
+
+/*--(Toplist)--*/
+
+.toplist a {
+    color: white;
+}
+
+.toplist h1 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toplist img {
+    width: 100%;
+    transition-property: all;
+    transition-duration: 0.9s;
+}
+
+.toplist img:hover {
+    border: solid white 1px;
+    transform: translateX(-10px);
+}
+
+.numero15 p {
+    margin-bottom: 80px;
+}
+
+.tituloToplist {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+.conteudoToplist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoToplist p {
+    font-size: large;
+    margin-top: 0px;
+}
+
+.posTitulo {
+    text-align: center;
+    margin-top: 1px;
+    font-size: large;
+}
+
+.numero1, .numero2, .numero3, .numero4, .numero5, .numero6, .numero7, .numero8, .numero9, .numero10, .numero11, .numero12, .numero13, .numero14, .numero15 {
+    width: 80%;
+}
+/*--(Pagina Individual)--*/
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 85%;
+    border-radius: 10px;
+    filter: drop-shadow(12px 12px 4px rgba(0, 0, 0, 0.25));
+}
+
+.fotonome img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    filter: none;
+    width: 100%;
+}
+
+.fotonome {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotonome h1 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.meta {
+    width: 90%;
+    border-bottom: solid 1px white;
+    text-align: center;
+    padding: 10px;
+}
+
+.sobre {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutt {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/*--(About)--*/
+.aboutt h1 {
+    text-align: left;
+    color: white;
+}
+
+.aboutt h3 {
+    width: 380px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.abouttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.contato h1 {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contato img {
+    width: 100%;
+}
+
+.contato p {
+    color: white;
+}
+
+.contato a {
+    transition-duration: 0.9s;
+    width: 30%;
+}
+
+.contato a:hover {
+    transform: scale(0.90);
+}
+
+/*--(Responsividade)--*/
+@media (min-width:960px) {
+
+    /*Nav*/
+    nav {
+        width: 700px;
+    }
+
+    nav a {
+        margin-right: 50px;
+    }
+
+    /*--(Home)--*/
+    #carouselExampleControls {
+        width: 65%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .cards a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards img {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .card1 {
+        width: 30%;
+        margin-right: 20px;
+
+    }
+
+    .card2 {
+        width: 30%;
+    }
+
+    .card3 {
+        width: 30%;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    /*--(Generos)--*/
+    
+    .acao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .acaoCard {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .discoGeneros {
+        margin-bottom: 0px;
+    }
+
+    .pathGeneros {
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+
+    .cupheadGeneros {
+        margin: 0px;
+        margin-left: 20px;
+    }
+
+    /*Drama*/
+    .drama {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dramaCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .awayGeneros {
+        margin-bottom: 0px;
+    }
+
+    .insideGeneros {
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    .papersGeneros {
+        margin: 0px;
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+
+    /*Rpg*/
+    .rpg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rpgCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .underGeneros {
+        margin-bottom: 0px;
+    }
+
+    .terrariaGeneros {
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    .shovelGeneros {
+        margin: 0px;
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+
+    /*--(About)--*/
+
+    .contato a{
+        width: 15%;
+    }
+    
+    /*--(Paginas Individuais)--*/
+    .info {
+        width: 70%;
+    }
+
+    .sobre {
+        font-size: large;
+    }
+}
